@@ -12,7 +12,7 @@ import easygui as g
 # ccbox()ccbox() 提供一个选择：Continue 或者 Cancel，并相应的返回 1（选中Continue）或者 0（选中Cancel）。
 #                注意 ccbox() 是返回整型的 1 或 0，不是布尔类型的 True 或 False。但你仍然可以这么写
 if g.ccbox(msg='还继续吗',title='提示',choices=('还要继续！','算了吧！')):
-	g.msgbox('还是不玩了，快睡觉吧！','继续','睡觉吧')
+	g.msgbox('还是不玩了，快睡觉吧！','继续吗','睡觉吧')
 else:
 	sys.exit(0)
 
