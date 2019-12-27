@@ -12,6 +12,8 @@ def encrypt_md5(s):
 if __name__ == '__main__':
     print(encrypt_md5('admin'))
 
+    #大撒大撒
+
 
 
 
